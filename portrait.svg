@@ -1,18 +1,39 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="370" height="270" viewBox="0 0 370 270" role="img" aria-label="Animated GF ASCII portrait placeholder">
+<svg xmlns="http://www.w3.org/2000/svg" width="370" height="400" viewBox="0 0 370 400" role="img" aria-label="Animated ASCII portrait">
 <style>
   .bg { fill: #0d1117; stroke: #30363d; stroke-width: 1; }
   text { font-family: Consolas, "Courier New", monospace; }
-  .row { fill: #8b949e; font-size: 20px; opacity: 0; animation: type 0.38s steps(18, end) forwards; }
-  .caption { fill: #58a6ff; font-size: 13px; }
-  @keyframes type { from { opacity: 0; transform: translateX(-10px); } to { opacity: 1; transform: translateX(0); } }
+  .title { fill: #58a6ff; font-size: 12px; }
+  .row { fill: #c9d1d9; font-size: 10px; opacity: 0; animation: print .2s linear forwards; }
+  @keyframes print { from { opacity: 0; transform: translateX(-7px); } to { opacity: 1; transform: translateX(0); } }
 </style>
-<rect class="bg" x="0.5" y="0.5" width="369" height="269" rx="6"/>
-<text x="28" y="34" class="caption">[ GF ] portrait loading...</text>
-<text x="28" y="66" class="row" style="animation-delay:0.15s">   GGGG   FFFFFFF</text>
-<text x="28" y="92" class="row" style="animation-delay:0.32s">  GG  GG  FF     </text>
-<text x="28" y="118" class="row" style="animation-delay:0.49s"> GG        FFFFF  </text>
-<text x="28" y="144" class="row" style="animation-delay:0.66s"> GG   GGG  FF     </text>
-<text x="28" y="170" class="row" style="animation-delay:0.8300000000000001s">  GG   GG  FF     </text>
-<text x="28" y="196" class="row" style="animation-delay:1.0s">   GGGG G  FF     </text>
-<text x="28" y="244" class="caption">awaiting source-photo.jpg</text>
+<rect class="bg" x="0.5" y="0.5" width="369" height="399" rx="6"/>
+<text class="title" x="18" y="30">[ GF ] ASCII PORTRAIT</text>
+<text class="row" x="18" y="54" style="animation-delay:0.100s">##*+++++*####****+=+++++++++++=========+++</text>
+<text class="row" x="18" y="65" style="animation-delay:0.145s">##%%#*=--=+******++++++***++++====++=+***#</text>
+<text class="row" x="18" y="76" style="animation-delay:0.190s">####%%%%#+-:-+**+=+++++###+******#%%%###%%</text>
+<text class="row" x="18" y="87" style="animation-delay:0.235s">####%%%%%%%*-``-+=+=++*#####%%%@@@@@@@%@@@</text>
+<text class="row" x="18" y="98" style="animation-delay:0.280s">#####%%%%%%@@%+``-=-`..``:=*#%@@@@@@@@@@@@</text>
+<text class="row" x="18" y="109" style="animation-delay:0.325s">####%%%%%%%%@@@*``.         .:=+*#%@@@@@@@</text>
+<text class="row" x="18" y="120" style="animation-delay:0.370s">###%%%%%%%%@@%=`              ..``-+#%@@@@</text>
+<text class="row" x="18" y="131" style="animation-delay:0.415s">##%%%%%%%%@@*:..   .`::::`.      ..`-=*%@@</text>
+<text class="row" x="18" y="142" style="animation-delay:0.460s">%%%%%%%%%%@*:``..:-=+++++++=:`     ..`:=*#</text>
+<text class="row" x="18" y="153" style="animation-delay:0.505s">%%%%%%%%%@*:``.`:--=+*****==--:. ......`::</text>
+<text class="row" x="18" y="164" style="animation-delay:0.550s">%%%%%%%%@*:``.`:````-+***-:``::`  `....```</text>
+<text class="row" x="18" y="175" style="animation-delay:0.595s">%%%%%%%@*:``.-++=-:`:+*#*::-=**=` .`````:`</text>
+<text class="row" x="18" y="186" style="animation-delay:0.640s">%%%%%@@+:``..-:`...`=*#%*-`..`:--  .`````:</text>
+<text class="row" x="18" y="197" style="animation-delay:0.685s">%%%@@@*:::` :===-==+***##**+===++:  `````:</text>
+<text class="row" x="18" y="208" style="animation-delay:0.730s">%@@@@#-::` :*****++-`:=-`-+*##%%#+. .``:::</text>
+<text class="row" x="18" y="219" style="animation-delay:0.775s">%@@@@=:-:. -*****+=:.`--:-=+*####*:  .`:::</text>
+<text class="row" x="18" y="230" style="animation-delay:0.820s">++*+#---`  :*#*+-:--:-======+*##*+` ...`::</text>
+<text class="row" x="18" y="241" style="animation-delay:0.865s">=:`:=--:.  `+**-::--::::---::+***=. .`.`::</text>
+<text class="row" x="18" y="252" style="animation-delay:0.910s">::`:-::`   .=*++-----=-====:-+**+-  .``.`:</text>
+<text class="row" x="18" y="263" style="animation-delay:0.955s">:::==:.     -++===--:``::-====++=`..``````</text>
+<text class="row" x="18" y="274" style="animation-delay:1.000s">`. `=:      .-==-====--=========``. ``````</text>
+<text class="row" x="18" y="285" style="animation-delay:1.045s">`  .=:.      .-===+====+++++==-`..  .`:```</text>
+<text class="row" x="18" y="296" style="animation-delay:1.090s">`   -`..    .` .``::::-:::-:....    .`::``</text>
+<text class="row" x="18" y="307" style="animation-delay:1.135s">    -`.     ::.              `:`    .`````</text>
+<text class="row" x="18" y="318" style="animation-delay:1.180s">   .:...    --:`.         .`---`    .`....</text>
+<text class="row" x="18" y="329" style="animation-delay:1.225s">...`:..     ==---::````::--===-. ....`    </text>
+<text class="row" x="18" y="340" style="animation-delay:1.270s">::::-.      -===------=======-:  ....`. ..</text>
+<text class="row" x="18" y="351" style="animation-delay:1.315s">::`:`.     `--==----==-----==-`....```.``:</text>
 </svg>
