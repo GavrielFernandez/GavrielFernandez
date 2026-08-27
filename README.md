@@ -25,5 +25,5 @@ Setup:
 1. Create a public repository named exactly GavrielFernandez.
 2. Copy these files to that repository and push them to main.
 3. In Actions, run "Update profile art" once. It will refresh the heatmap every day.
-4. To replace the temporary GF portrait, add a square-ish `source-photo.jpg`, run `python -m pip install -r scripts/requirements-local.txt`, then run `python scripts/make_ascii_portrait.py`.
+4. To replace the temporary GF portrait, add a square-ish `assets/source-photo.jpg`, run `python -m pip install -r scripts/requirements-local.txt`, then run `python scripts/make_ascii_portrait.py`.
 -->

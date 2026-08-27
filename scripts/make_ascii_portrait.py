@@ -5,7 +5,7 @@ from PIL import Image, ImageEnhance, ImageOps
 
 
 ROOT = Path(__file__).resolve().parent.parent
-SOURCE = ROOT / "source-photo.jpg"
+SOURCE = ROOT / "assets" / "source-photo.jpg"
 OUTPUT = ROOT / "portrait.svg"
 RAMP = " .`:-=+*#%@"
 
