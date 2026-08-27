@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="490" height="270" viewBox="0 0 490 270" role="img" aria-label="Profile information for Gavriel Fernandez">
+<style>
+  .bg { fill: #0d1117; stroke: #30363d; stroke-width: 1; }
+  .bar { fill: #161b22; }
+  text { font-family: Consolas, "Courier New", monospace; font-size: 14px; }
+  .title { fill: #e6edf3; font-size: 13px; }
+  .key { fill: #58a6ff; } .value { fill: #c9d1d9; }
+  .line { opacity: 0; transform: translateX(-7px); animation: print 0.35s ease-out forwards; }
+  @keyframes print { to { opacity: 1; transform: translateX(0); } }
+</style>
+<rect class="bg" x="0.5" y="0.5" width="489" height="269" rx="6"/>
+<path class="bar" d="M6 0h478a6 6 0 0 1 6 6v32H0V6a6 6 0 0 1 6-6z"/>
+<circle cx="19" cy="19" r="5" fill="#ff5f56"/><circle cx="37" cy="19" r="5" fill="#ffbd2e"/><circle cx="55" cy="19" r="5" fill="#27c93f"/>
+<text class="title" x="82" y="24">neofetch --profile</text>
+<g class="line" style="animation-delay:0.2s">
+  <text x="28" y="76" class="key">name</text>
+  <text x="154" y="76" class="value">Gavriel Fernandez</text>
+</g>
+<g class="line" style="animation-delay:0.38s">
+  <text x="28" y="108" class="key">role</text>
+  <text x="154" y="108" class="value">Developer | AI Builder</text>
+</g>
+<g class="line" style="animation-delay:0.56s">
+  <text x="28" y="140" class="key">based</text>
+  <text x="154" y="140" class="value">Israel</text>
+</g>
+<g class="line" style="animation-delay:0.74s">
+  <text x="28" y="172" class="key">focus</text>
+  <text x="154" y="172" class="value">AI, ML, and automation</text>
+</g>
+<g class="line" style="animation-delay:0.9199999999999999s">
+  <text x="28" y="204" class="key">stack</text>
+  <text x="154" y="204" class="value">Python, Java, PyTorch</text>
+</g>
+<g class="line" style="animation-delay:1.0999999999999999s">
+  <text x="28" y="236" class="key">now</text>
+  <text x="154" y="236" class="value">LLMs and trading systems</text>
+</g>
+</svg>

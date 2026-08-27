@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="370" height="270" viewBox="0 0 370 270" role="img" aria-label="Animated GF ASCII portrait placeholder">
+<style>
+  .bg { fill: #0d1117; stroke: #30363d; stroke-width: 1; }
+  text { font-family: Consolas, "Courier New", monospace; }
+  .row { fill: #8b949e; font-size: 20px; opacity: 0; animation: type 0.38s steps(18, end) forwards; }
+  .caption { fill: #58a6ff; font-size: 13px; }
+  @keyframes type { from { opacity: 0; transform: translateX(-10px); } to { opacity: 1; transform: translateX(0); } }
+</style>
+<rect class="bg" x="0.5" y="0.5" width="369" height="269" rx="6"/>
+<text x="28" y="34" class="caption">[ GF ] portrait loading...</text>
+<text x="28" y="66" class="row" style="animation-delay:0.15s">   GGGG   FFFFFFF</text>
+<text x="28" y="92" class="row" style="animation-delay:0.32s">  GG  GG  FF     </text>
+<text x="28" y="118" class="row" style="animation-delay:0.49s"> GG        FFFFF  </text>
+<text x="28" y="144" class="row" style="animation-delay:0.66s"> GG   GGG  FF     </text>
+<text x="28" y="170" class="row" style="animation-delay:0.8300000000000001s">  GG   GG  FF     </text>
+<text x="28" y="196" class="row" style="animation-delay:1.0s">   GGGG G  FF     </text>
+<text x="28" y="244" class="caption">awaiting source-photo.jpg</text>
+</svg>
